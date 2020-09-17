@@ -5,9 +5,10 @@ import javax.swing.JOptionPane;
 public class LoopVariables {
 public static void main(String[] args) {
 
-String years = JOptionPane.showInputDialog("What year where you born in?");
-int year = Integer.parseInt(years);
-	
+
+for (int i = 2010; i <2021; i++) {
+	System.out.println(i);
+}	
 	
 	
 	
